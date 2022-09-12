@@ -1,0 +1,72 @@
+body {
+  color: grey;
+  font-family: 'Lato';
+  text-align: center;
+  background: #6a62d2;
+  margin-left: 410px;
+  margin-right:410px;
+   }
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  text-align: left;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+border-radius:15px; 
+}
+
+label {
+  color:  #6a62d2;
+  text-transform: uppercase;
+}
+
+input {
+  background: transparent;
+  font-size: 14px;
+  display: block;
+  padding: 10px 30px 10px 5px;
+  margin: 10px 0 40px;
+  border: 2px solid white;
+  border-bottom: 2px solid grey;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #66cc99;;
+}
+
+
+.button:hover {
+  background: #5ec190;
+}
+.password-rules {
+  font-size: 10px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.error-message {
+  color: red;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.form-container button {
+    outline: 0;
+    background: #6a62d2;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;

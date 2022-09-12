@@ -1,0 +1,13 @@
+.jumbotron{
+         background-color: #337a97;
+    color: #fff;
+    background-image: url("rty.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 50vh;
+    background-size: cover;
+    width: 100%;
+}
+.p{
+		padding:10px;
+}

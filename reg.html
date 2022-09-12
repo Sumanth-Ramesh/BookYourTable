@@ -1,0 +1,36 @@
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" href="reg.css">
+<script src="reg.js"></script>
+</head>
+<body>
+  <h1><u>Registration form</u></h1>
+  <div class="form-container">
+    <form name="registerForm">
+      <label for="firstName">First Name *</label>
+      <input type="text" id="firstName" name="firstName"  required/><p class="error-message"></p>
+      <label for="lastName">Last Name *</label>
+      <input type="text" id="lastName" required/>
+      <p class="error-message"></p>
+      <label for="e-mail">E-mail address *</label>
+      <input type="text" id="e-mail" required/>
+      <p class="error-message"></p>
+      <label for="phoneNumber">Phone Number</label>
+      <input type="text" id="phoneNumber" maxlength="9" pattern=".{9,}"   required title="9 characters length"/>
+      <p class="error-message"></p>
+      <label for="country">Country</label>
+      <input type="text" id="country"/>
+      <p class="error-message"></p>
+      <label for="password">Password *</label>
+      <input type="password" id="password" pattern	=".{8,}"   required title="8 characters minimum"/>
+      <p class="error-message"></p>
+      <p class="password-rules">Your password should contain at least 8 characters and 1 number.</p>
+      <form>
+	  <button type="submit">SIGN UP</button>
+	  </form>
+	  </div>
+</body>
+</html>

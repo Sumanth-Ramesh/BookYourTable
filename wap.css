@@ -1,0 +1,50 @@
+.logo{
+        float: left;
+        width:125px;
+        height:125px;
+}
+.jumbotron {
+    background-color: #337a97;
+    color: #fff;
+    background-image: url("relax.jpg");
+    background-repeat: no-repeat;
+    background-position: middle;
+    height: 45vh;
+    background-size: cover;
+    width: 100%;
+}
+p,li{
+        font-weight:bold;
+}
+.panelbody{
+        height:200px;
+        width:200px;
+}
+.img-responsive{
+        height:180px;
+        width:230px;
+}
+.btn{
+        margin-left:40px;
+        background-color:#337ab7;
+        color:#fff;
+}
+strong{
+        margin-left:90px;
+}
+
+footer{
+        text-align:center;
+        background-color:grey;
+        color:black;
+}
+footer>a{
+        color:black;
+        padding:10px;
+}
+.colured{
+	color:#fff;
+}
+.jod:hover {
+    transform: scale(1.1);
+}
